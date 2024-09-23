@@ -1,0 +1,38 @@
+
+
+/* SectionOne Styles */
+
+.sectonOne__left--text{
+    color: var(--color-white-75);
+    font-family: var(--font-2);
+    font-size: var(--body);
+}
+.sectionOne__left__btn{
+ margin-top: 20px;
+ align-self: start;
+}
+
+/* SectionTwo Styles */
+.sectionTwo{
+    padding: 40px 0;
+    display: grid;
+    gap: 30px;
+}
+.sectionTwo__content--text{
+    font-family: var(--font-2);
+    font-size: var(--sub);
+}
+
+.sectionTwo__logo{
+display: grid;
+grid-template-columns: repeat(5,1fr);
+}
+
+.sectionTwo__logo img{
+    align-self: center;
+    justify-self: center;
+}
+
+.sectionTwo__btn {
+ justify-self: center;
+}

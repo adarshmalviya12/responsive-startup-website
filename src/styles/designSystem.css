@@ -51,6 +51,7 @@
     color: var(--color-dark-100);
     background-color: var(--color-white-100);
     padding: 10px 40px;
+    border: none;
     border-radius: 8px;
     cursor: pointer;
     font-size: var(--h5);
@@ -80,7 +81,6 @@
 /* style for lable */
 
 .label {
-    color: var(--color-green-100);
     font-family: var(--font-2);
     letter-spacing: var(--ls);
     font-size: var(--label);
@@ -132,7 +132,7 @@
     display: none;
 }
 
-.navbar__icons i{
+.navbar__icons i {
     cursor: pointer;
     color: var(--color-white-100);
     font-size: var(--h2);
@@ -140,9 +140,39 @@
 
 
 /* Common Classes */
-.container{
+.container {
  max-width: 1140px; 
  margin: auto;  
+}
+
+.text-center{
+ text-align: center;
+}
+
+.responsive_image {
+    max-width: 100%;
+    height: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    padding: 40px 0;
+    gap: 25px;
+}
+
+.common-title{
+    font-weight: bold;
+    font-size: var(--h1);
+    font-family: var(--font-1);
+    text-transform: capitalize;
+}
+
+.flex{
+    display: flex;  
+    flex-direction: column;
+    gap: 10px;
 }
 
 @media (max-width : 1200px) {

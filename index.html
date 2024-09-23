@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,31 +9,68 @@
     <link rel="stylesheet" href="./src/styles/designSystem.css">
     <link rel="stylesheet" href="./src/styles/index.css" />
 </head>
+
 <body>
-<div class="hero">
-    <div class="navbar container">
-        <div class="navbar__logo">
-            <img src="./src/images/Logo/LogoWhite.svg" class="navbar__logo--image">
-        
-            </img>
-            <div class="navbar__logo-text">
-                Start
+    <div class="hero">
+        <div class="navbar container">
+            <div class="navbar__logo">
+                <img src="./src/images/Logo/LogoWhite.svg" class="navbar__logo--image">
+
+                </img>
+                <div class="navbar__logo-text">
+                    Start
+                </div>
+            </div>
+
+            <div class="navbar__menu hidden">
+                <a href="" class="navbar__menu--1">Home</a>
+                <a href="" class="navbar__menu--2">Portfolio</a>
+                <a href="" class="navbar__menu--3">Service</a>
+                <a href="" class="navbar__menu--4">Contact</a>
+            </div>
+
+            <div class="navbar__icons">
+                <i class="bi bi-list "></i>
+                <i class="bi bi-x-lg hide"></i>
             </div>
         </div>
-        
-        <div class="navbar__menu hidden">
-            <a href="" class="navbar__menu--1">Home</a>
-            <a href="" class="navbar__menu--2">Portfolio</a>
-            <a href="" class="navbar__menu--3">Service</a>
-            <a href="" class="navbar__menu--4">Contact</a>
-        </div>
-        
-        <div class="navbar__icons">
-            <i class="bi bi-list "></i>
-            <i class="bi bi-x-lg hide"></i>
+        <div class="sectionOne grid container">
+            <div class="sectionOne__left flex">
+                <div class="sectionOne__left--lable text-white label">
+                    Welcome
+                </div>
+                <div class="sectionOne__left--title common-title text-white">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                </div>
+                <div class="sectonOne__left--text ">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod quo commodi amet placeat modi eos
+                    obcaecati explicabo nemo debitis earum Lorem ipsum dolor sit, amet consectetur adipisicing.
+                </div>
+                <button class="sectionOne__left__btn white-btn">
+                    Explore
+                </button>
+            </div>
+            <img src="/src/images/Home/image-1.svg" alt="" class="sectionOne__right responsive_image">
         </div>
     </div>
-</div>
+    <div class="sectionTwo container">
+        <div class="sectionTwo__content text-center flex">
+            <div class="sectionTwo__content--label label text-green ">Partners</div>
+            <div class="sectionTwo__content--title common-title ">Lorem ipsum dolor sit amet consectetur.</div>
+            <div class="sectionTwo__content--text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates,
+                est.</div>
+        </div>
+        <div class="sectionTwo__logo  ">
+            <img src="src/images/Companies/Airbnb.svg" alt="" class="responsive_image">
+            <img src="src/images/Companies/Facebook.svg" alt="" class="responsive_image">
+            <img src="src/images/Companies/Google.svg" alt="" class="responsive_image">
+            <img src="src/images/Companies/Microsoft.svg" alt="" class="responsive_image">
+            <img src="src/images/Companies/Spotify.svg" alt="" class="responsive_image">
+        </div>
+        <button class="sectionTwo__btn dark-btn">Learn More </button>
+    </div>
+
 </body>
 <script src="src/main.js"></script>
+
 </html>
