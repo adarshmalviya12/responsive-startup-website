@@ -36,3 +36,33 @@ grid-template-columns: repeat(5,1fr);
 .sectionTwo__btn {
  justify-self: center;
 }
+
+/* Section three */
+
+.sectionThree__right{
+    display: grid;
+    gap: 30px;
+}
+
+.sectionThree__right--text{
+  color: var(--color-dark-50);
+}
+
+.sectionThree__right--btn {
+    justify-self: start;
+}
+
+
+/* Section Four */
+
+.secitonFour__left{
+ display: grid;
+ gap: 30px;
+}
+.secitonFour__left--text{
+    color: var(--color-dark-50);
+}
+
+.secitonFour__left--btn {
+    justify-self: start;
+}
